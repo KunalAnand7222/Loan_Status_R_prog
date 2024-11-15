@@ -450,7 +450,7 @@ barplot(All_f1_score, names.arg = modell, col = rainbow(length(modell)), xlab = 
 ### Model vs Recall
 
 ```{r,fig.showtext = TRUE}
-par(bg="#222831",mar=c(1,1,1,1))
+par(bg="#222831")
 barplot(All_recall, names.arg = modell, col = rainbow(length(modell)), xlab = "Model", ylab = "recall", ylim=c(0,max(All_recall+10)),
         col.main = "#e0e0e0",       
         col.lab = "#e0e0e0",      
